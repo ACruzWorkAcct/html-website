@@ -1,0 +1,84 @@
+.resume {
+    color: black;
+    font: 1.2rem "Times New Roman", serif;
+    margin: 20px;
+    max-width: 850px;
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            border: 2px solid navy;
+            border-radius: 20px;
+            float: left;
+            margin-right: 20px;
+            width: 120px;
+        }
+
+        .header {
+            flex: 1;
+            text-align: l;
+        }
+
+        div[header-items] {
+            line-height: 1.5;
+        }
+    }
+
+    div[section-title] {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    li {
+        margin: 0px;
+    }
+    ul {
+        margin: 0;
+    }
+}
+
+.summary-content {
+    line-height: 30px;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.section-content {
+    line-height: 30px;
+    list-style: none;
+}
+
+.section-container {
+    margin-bottom: 20px;
+
+    li {
+        margin-top: 10px;
+    }
+}
+
+.job-content {
+    line-height: 30px;
+    list-style: none;
+}
+
+.skills-section {
+    li {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        font-size: 1rem;
+    }
+
+    .section-container {
+        font-size: 14px;
+
+        ul {
+            padding-inline-start: 15px;
+        }
+    }
+}
