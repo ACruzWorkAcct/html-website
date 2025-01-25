@@ -1,2 +1,2 @@
-# html-website
+# HTML Website
 Developer website
